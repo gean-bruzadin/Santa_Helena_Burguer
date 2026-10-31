@@ -1,0 +1,267 @@
+/* ===== Base (desktop / telas grandes) ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Alegreya Sans", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #310D08;
+    background-color: #F9F4DE;
+}
+
+h1, h2, h3 {
+    font-family: "Alegreya", Georgia, serif;
+    line-height: 1.15;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ===== Topo ===== */
+
+.topo {
+    background-color: #420B5F;
+    color: #F9F4DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    border-bottom: 5px solid #FFC43D;
+}
+
+.topo-marca {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Alegreya", Georgia, serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.topo-marca img {
+    width: 56px;
+    height: 56px;
+    background-color: #F9F4DE;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #FFC43D;
+}
+
+/* ===== Hero ===== */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 60px;
+}
+
+.hero-texto {
+    width: 50%;
+}
+
+.hero-texto h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #420B5F;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    max-width: 480px;
+}
+
+.hero-logo {
+    width: 45%;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #A7193F;
+    color: #F9F4DE;
+    font-weight: 700;
+    padding: 14px 34px;
+    border-radius: 40px;
+    border: 3px solid #310D08;
+}
+
+.botao:hover {
+    background-color: #420B5F;
+}
+
+.botao:focus,
+.menu a:focus {
+    outline: 3px solid #FFC43D;
+    outline-offset: 3px;
+}
+
+/* ===== Cardápio ===== */
+
+.cardapio {
+    background-color: #420B5F;
+    color: #F9F4DE;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.cardapio h2 {
+    font-size: 48px;
+    color: #FFC43D;
+}
+
+.cardapio-intro {
+    margin-bottom: 40px;
+}
+
+.cardapio-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    width: calc(33.333% - 16px);
+    background-color: #FFF9E9;
+    color: #310D08;
+    border: 4px solid #FFC43D;
+    border-radius: 120px 120px 12px 12px;
+    padding: 50px 24px 24px 24px;
+}
+
+.item h3 {
+    font-size: 26px;
+    color: #A7193F;
+    margin-bottom: 8px;
+}
+
+.item p {
+    margin-bottom: 12px;
+}
+
+.preco {
+    display: inline-block;
+    font-family: "Alegreya", Georgia, serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #420B5F;
+}
+
+/* ===== Nossa história ===== */
+
+.historia {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 90px 60px;
+}
+
+.historia-imagem {
+    width: 40%;
+}
+
+.historia-imagem img {
+    border-radius: 50%;
+    border: 6px solid #FFC43D;
+}
+
+.historia-texto {
+    width: 60%;
+}
+
+.historia-texto h2 {
+    font-size: 48px;
+    color: #420B5F;
+    margin-bottom: 20px;
+}
+
+.historia-texto p {
+    margin-bottom: 16px;
+    max-width: 560px;
+}
+
+/* ===== Contato ===== */
+
+.contato {
+    background-color: #A7193F;
+    color: #F9F4DE;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+
+.contato-caixas {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.caixa {
+    width: 33.333%;
+    border: 3px solid #FFC43D;
+    border-radius: 12px;
+    padding: 28px 20px;
+}
+
+.caixa h3 {
+    font-size: 26px;
+    color: #FFC43D;
+    margin-bottom: 8px;
+}
+
+/* ===== Rodapé ===== */
+
+.rodape {
+    background-color: #310D08;
+    color: #F9F4DE;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 16px;
+}
+
+.rodape img {
+    width: 110px;
+    margin: 0 auto 12px auto;
+    background-color: #F9F4DE;
+    border-radius: 50%;
+    padding: 6px;
+}
