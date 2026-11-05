@@ -93,3 +93,28 @@ body {
 .caixa {
     width: 100%;
 }
+
+/* Rodapé: tudo centralizado em uma coluna */
+.rodape {
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+}
+
+.rodape-colunas {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rodape-coluna {
+    width: 100%;
+}
+
+.rodape-marca img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape-linha,
+.redes {
+    justify-content: center;
+}

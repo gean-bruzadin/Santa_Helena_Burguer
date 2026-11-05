@@ -9,15 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;800&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./WWW/santa-helena/assets/css/style.css">
-    <link rel="stylesheet" href="./WWW/santa-helena/assets/css/mobile.css" media="(max-width: 767px)">
-    <link rel="stylesheet" href="./WWW/santa-helena/assets/css/tablet.css" media="(min-width: 768px) and (max-width: 1824px)">
+    <link rel="stylesheet" href="../santa-helena/assets/css/style.css">
+    <link rel="stylesheet" href="../santa-helena/assets/css/mobile.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="../santa-helena/assets/css/tablet.css" media="(min-width: 768px) and (max-width: 1824px)">
 </head>
 <body>
 
     <header class="topo">
         <a href="#inicio" class="topo-marca">
-            <img src="./WWW/santa-helena/assets/img/Logo.png" alt="Logo Santa Helena Burguer">
+            <img src="../santa-helena/assets/img/Logo.png" alt="Logo Santa Helena Burguer">
             <span>Santa Helena</span>
         </a>
         <nav class="menu">
@@ -36,7 +36,7 @@
                 <a href="#cardapio" class="botao">Ver cardápio</a>
             </div>
             <div class="hero-logo">
-                <img src="./WWW/santa-helena/assets/img/Logo.png" alt="Santa Helena segurando um hambúrguer">
+                <img src="../santa-helena/assets/img/Logo.png" alt="Santa Helena segurando um hambúrguer">
             </div>
         </section>
 
@@ -87,7 +87,7 @@
 
         <section class="historia" id="historia">
             <div class="historia-imagem">
-                <img src="./WWW/santa-helena/assets/img/Logo.jpg" alt="Selo Santa Helena Burguer">
+                <img src="../santa-helena/assets/img/Logo.jpg" alt="Selo Santa Helena Burguer">
             </div>
             <div class="historia-texto">
                 <h2>Nossa história</h2>
@@ -118,9 +118,46 @@
     </main>
 
     <footer class="rodape">
-        <img src="./WWW/santa-helena/assets/img/Logo.png" alt="Logo Santa Helena Burguer">
-        <p>© 2026 Santa Helena Burguer. Todos os direitos reservados.</p>
-    </footer>
+    <div class="rodape-colunas">
+
+        <div class="rodape-coluna rodape-marca">
+            <img src="./assets/img/Logo.png" alt="Logo Santa Helena Burguer">
+            <p>Hambúrguer feito com fé, carinho e muito sabor.</p>
+        </div>
+
+        <div class="rodape-coluna">
+            <h3>Localização</h3>
+            <p class="rodape-linha">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Rua Exemplo, 123 - Centro
+            </p>
+            <p class="rodape-linha">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                Terça a domingo, 18h às 23h
+            </p>
+            <a class="rodape-botao" href="https://www.google.com/maps/search/?api=1&query=Rua+Exemplo+123+Centro" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+
+        <div class="rodape-coluna">
+            <h3>Redes sociais</h3>
+            <div class="redes">
+                <a href="https://instagram.com/santahelenaburguer" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </a>
+                <a href="https://facebook.com/santahelenaburguer" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+            </div>
+            <p class="rodape-arroba">@santahelenaburguer</p>
+        </div>
+
+    </div>
+
+    <p class="rodape-direitos">© 2026 Santa Helena Burguer. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>

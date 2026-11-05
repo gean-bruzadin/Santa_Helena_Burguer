@@ -53,3 +53,22 @@
 .contato-caixas {
     gap: 16px;
 }
+
+/* Rodapé: marca em cima, duas colunas embaixo */
+.rodape {
+    padding: 50px 30px 20px 30px;
+}
+
+.rodape-colunas {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rodape-marca {
+    width: 100%;
+    text-align: center;
+}
+
+.rodape-coluna {
+    width: calc(50% - 15px);
+}
