@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body {
@@ -44,6 +45,9 @@ a {
     padding: 12px 60px;
     border-bottom: 5px solid #F4B942;
     box-shadow: 0 4px 12px rgba(36, 27, 43, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .topo-marca {
@@ -422,3 +426,97 @@ a {
     70%  { transform: translateY(-6px); }
     100% { transform: translateY(0); }
 }
+
+.contato-intro{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFF6E8;
+    border-bottom: 6px solid #542080;
+    border-radius: 16px;
+    padding: 36px;
+    box-shadow: 0 8px 16px rgba(36, 27, 43, 0.25);
+}
+
+.obrigado {
+    display: none;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #FFF6E8;
+    border-bottom: 6px solid #542080;
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 16px rgba(36, 27, 43, 0.25);
+}
+
+.obrigado h3 {
+    font-size: 32px;
+    color: #542080;
+    margin-bottom: 10px;
+}
+
+.obrigado p {
+    margin-bottom: 20px;
+}
+
+
+.obrigado:target {
+    display: block;
+}
+
+.obrigado:target + .formulario {
+    display: none;
+}
+
+.form-linha{
+    display: flex;
+    gap: 20px;
+}
+
+.campo{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.campo label{
+    display: block;
+    font-weight: 700;
+    color: #542080;
+    margin-bottom: 6px;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: 17px;
+    color: #241B2B;
+    background-color: #FFFFFF;
+    border: 2px solid #8C52C2;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+.campo textarea{
+    resize: vertical;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    outline: 3px solid #F4B942;
+    border-color: #542080;
+}
+
+button.botao {
+    font-family: inherit;
+    font-size: 19px;
+    cursor: pointer;
+}
+

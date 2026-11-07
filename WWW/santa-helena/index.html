@@ -23,7 +23,7 @@
         <nav class="menu">
             <a href="#cardapio">Cardápio</a>
             <a href="#historia">Nossa história</a>
-            <a href="#contato">Visite-nos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
@@ -97,22 +97,52 @@
             </div>
         </section>
 
-        <section class="contato" id="contato">
-            <h2>Visite-nos</h2>
-            <div class="contato-caixas">
-                <div class="caixa">
-                    <h3>Endereço</h3>
-                    <p>Rua Exemplo, 123<br>Centro</p>
-                </div>
-                <div class="caixa">
-                    <h3>Horário</h3>
-                    <p>Terça a domingo<br>18h às 23h</p>
-                </div>
-                <div class="caixa">
-                    <h3>Pedidos</h3>
-                    <p>(00) 00000-0000<br>@santahelenaburguer</p>
-                </div>
+       <section class="contato" id="contato">
+            <h2>Fale com a gente</h2>
+            <p class="contato-intro">Dúvidas, elogios ou encomendas para eventos? Envie sua mensagem.</p>
+
+            <div class="obrigado" id="obrigado">
+                <h3>Mensagem enviada!</h3>
+                <p>Obrigado pelo contato. A Santa Helena abençoa seu dia. 🍔</p>
+                <a href="#contato" class="botao">Enviar outra mensagem</a>
             </div>
+
+            <form action="#obrigado" method="get" class="formulario">
+                <div class="form-linha">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div> 
+                </div>
+
+                <div class="form-linha">
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-00000">
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select name="assunto" id="assunto">
+                            <option value="duvida">Dúvida</option>
+                            <option value="pedido">Pedido</option>
+                            <option value="evento">Evento</option>
+                            <option value="elogio">Elogio ou sugestão</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                </div>
+                <button type="submit" class="botao">Enviar Mensagem</button>
+            </form>
         </section>
 
     </main>

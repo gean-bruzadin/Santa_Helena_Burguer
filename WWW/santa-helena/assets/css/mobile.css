@@ -5,6 +5,7 @@ body {
     font-size: 17px;
 }
 
+
 /* Topo: marca em cima, links embaixo */
 .topo {
     flex-direction: column;
@@ -117,4 +118,31 @@ body {
 .rodape-linha,
 .redes {
     justify-content: center;
+}
+
+/* Contato: formulário em uma coluna */
+.contato {
+    padding: 50px 20px;
+}
+
+.formulario {
+    padding: 24px 18px;
+}
+
+.form-linha {
+    flex-direction: column;
+    gap: 0;
+}
+
+button.botao {
+    width: 100%;
+}
+
+html {
+    scroll-padding-top: 110px;
+}
+
+.topo-marca img {
+    width: 44px;
+    height: 44px;
 }
