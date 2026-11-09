@@ -1,0 +1,132 @@
+.topo {
+    padding: 12px 30px;
+}
+
+.menu {
+    gap: 22px;
+}
+
+.titulo-secao {
+    font-size: 38px;
+}
+
+.pagina-topo {
+    padding: 50px 30px 60px 30px;
+}
+
+.pagina-topo h1 {
+    font-size: 46px;
+}
+
+.hero {
+    padding: 50px 30px;
+    gap: 24px;
+}
+
+.hero-texto h1 {
+    font-size: 46px;
+}
+
+.hero-descricao {
+    font-size: 20px;
+}
+
+.chamadas {
+    padding: 20px 30px 60px 30px;
+}
+
+.chamadas-lista {
+    gap: 16px;
+}
+
+.chamada h3 {
+    font-size: 26px;
+}
+
+.chamada-texto {
+    padding: 18px 18px 22px 18px;
+}
+
+.faixa {
+    padding: 60px 30px;
+}
+
+.faixa-miolo {
+    gap: 30px;
+}
+
+.faixa h2 {
+    font-size: 52px;
+}
+
+.cardapio {
+    padding: 30px 30px 20px 30px;
+}
+
+.cardapio-lista {
+    gap: 18px;
+}
+
+.item img {
+    width: 130px;
+    height: 130px;
+}
+
+.pagina-topo-compacto {
+    padding: 30px 30px 36px 30px;
+}
+
+.menu-cardapio a {
+    padding: 8px 14px;
+}
+
+.menu-cardapio .menu-voltar {
+    margin-left: 6px;
+}
+
+.historia {
+    padding: 60px 30px;
+    gap: 36px;
+}
+
+.historia-texto h2 {
+    font-size: 38px;
+}
+
+.valores {
+    padding: 60px 30px;
+}
+
+.valores-lista {
+    gap: 16px;
+}
+
+.contato {
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 30px;
+}
+
+.contato-info,
+.formulario {
+    width: 100%;
+}
+
+.rodape {
+    padding: 50px 30px 20px 30px;
+}
+
+.rodape-colunas {
+    gap: 30px;
+}
+
+@media (max-width: 960px) {
+    .rodape-colunas {
+        flex-wrap: wrap;
+    }
+
+    .rodape-marca {
+        flex: none;
+        width: 100%;
+    }
+}

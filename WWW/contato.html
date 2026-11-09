@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Santa Helena Burguer</title>
+    <link rel="icon" href="assets/img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;800&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="assets/css/tablet.css" media="(min-width: 768px) and (max-width: 1824px)">
+</head>
+<body>
+
+    <header class="topo">
+        <a href="index.html" class="topo-marca">
+            <img src="assets/img/logo.png" alt="Logo Santa Helena Burguer">
+            <span>Santa Helena</span>
+        </a>
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="index.html#conheca">Conheça a Santa Helena</a>
+            <a href="historia.html">História</a>
+            <a href="contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="pagina-topo">
+            <h1>Fale com a gente</h1>
+            <p>Dúvidas, elogios ou encomendas para eventos? Envie sua mensagem.</p>
+        </section>
+
+        <section class="contato">
+
+            <div class="contato-info">
+                <h2>Onde estamos</h2>
+                <p class="info-linha">
+                    <img src="assets/img/icone-pin-laranja.png" alt="Endereço">
+                    Rua Exemplo, 123 - Centro
+                </p>
+                <p class="info-linha">
+                    <img src="assets/img/icone-relogio-laranja.png" alt="Horário">
+                    Terça a domingo, 18h às 23h
+                </p>
+                <p class="info-linha">
+                    <img src="assets/img/icone-telefone-laranja.png" alt="Telefone">
+                    <a href="https://wa.me/5517996777132" target="_blank">(17) 99677-7132</a>
+                </p>
+                <p class="info-linha">
+                    <img src="assets/img/icone-instagram-laranja.png" alt="Instagram">
+                    <a href="https://instagram.com/santahelenaburguer" target="_blank">@santahelenaburguer</a>
+                </p>
+            </div>
+
+            <form action="obrigado.html" method="get" class="formulario">
+                <h2>Envie sua mensagem</h2>
+
+                <div class="form-linha">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-linha">
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="duvida">Dúvida</option>
+                            <option value="pedido">Pedido</option>
+                            <option value="evento">Evento</option>
+                            <option value="elogio">Elogio ou sugestão</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                </div>
+
+                <button type="submit" class="botao">Enviar mensagem</button>
+
+                <div class="contato-social">
+                    <p>Prefere falar direto com a gente?</p>
+                    <div class="contato-social-botoes">
+                        <a href="https://wa.me/5517996777132" target="_blank" class="botao-social">
+                            <img src="assets/img/icone-whatsapp.png" alt="">
+                            WhatsApp
+                        </a>
+                        <a href="https://instagram.com/santahelenaburguer" target="_blank" class="botao-social">
+                            <img src="assets/img/icone-instagram.png" alt="">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-colunas">
+
+            <div class="rodape-coluna rodape-marca">
+                <img src="assets/img/logo.png" alt="Logo Santa Helena Burguer">
+                <p>Hambúrguer feito com fé, carinho e muito sabor.</p>
+            </div>
+
+            <div class="rodape-coluna">
+                <h3>Localização</h3>
+                <p class="rodape-linha">
+                    <img src="assets/img/icone-pin-amarelo.png" alt="Endereço">
+                    Rua Exemplo, 123 - Centro
+                </p>
+                <p class="rodape-linha">
+                    <img src="assets/img/icone-relogio-amarelo.png" alt="Horário">
+                    Terça a domingo, 18h às 23h
+                </p>
+                <a class="rodape-botao" href="https://www.google.com/maps/search/?api=1&query=Rua+Exemplo+123+Centro" target="_blank">Como chegar</a>
+            </div>
+
+            <div class="rodape-coluna">
+                <h3>Redes sociais</h3>
+                <div class="redes">
+                    <a href="https://instagram.com/santahelenaburguer" target="_blank"><img src="assets/img/icone-instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/5517996777132" target="_blank"><img src="assets/img/icone-whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://facebook.com/santahelenaburguer" target="_blank"><img src="assets/img/icone-facebook.png" alt="Facebook"></a>
+                </div>
+                <p>@santahelenaburguer</p>
+            </div>
+
+        </div>
+
+        <p class="rodape-direitos">© 2026 Santa Helena Burguer. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

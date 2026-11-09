@@ -1,0 +1,266 @@
+body {
+    font-size: 17px;
+}
+
+.titulo-secao {
+    font-size: 30px;
+}
+
+.topo {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 16px;
+}
+
+.topo-marca {
+    font-size: 24px;
+}
+
+.topo-marca img {
+    width: 44px;
+    height: 44px;
+}
+
+.menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 16px;
+    font-size: 16px;
+}
+
+.topo-cardapio {
+    flex-direction: column;
+}
+
+.menu-cardapio {
+    width: 100%;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.menu-cardapio a {
+    padding: 6px 14px;
+}
+
+.menu-cardapio .menu-voltar {
+    margin-left: 0;
+}
+
+.pagina-topo-compacto {
+    padding: 26px 20px 30px 20px;
+}
+
+.pagina-topo-compacto h1 {
+    font-size: 34px;
+}
+
+.pagina-topo {
+    padding: 40px 20px 50px 20px;
+}
+
+.pagina-topo h1 {
+    font-size: 38px;
+}
+
+.pagina-topo p {
+    font-size: 18px;
+}
+
+.hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 20px 40px 20px;
+    gap: 20px;
+}
+
+.hero-texto,
+.hero-logo {
+    width: 100%;
+}
+
+.hero-logo img {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.hero-texto h1 {
+    font-size: 36px;
+}
+
+.hero-descricao {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selo {
+    font-size: 13px;
+}
+
+.chamadas {
+    padding: 10px 20px 50px 20px;
+}
+
+.chamadas-lista {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faixa {
+    padding: 50px 20px;
+}
+
+.faixa-miolo {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 36px;
+}
+
+.faixa-texto,
+.faixa-imagem {
+    width: 100%;
+}
+
+.faixa-imagem {
+    max-width: 260px;
+}
+
+.faixa-preco {
+    width: 96px;
+    height: 96px;
+    font-size: 23px;
+}
+
+.faixa h2 {
+    font-size: 42px;
+}
+
+.faixa-descricao {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faixa-botoes,
+.faixa-info {
+    justify-content: center;
+}
+
+.cardapio {
+    padding: 24px 16px 10px 16px;
+}
+
+.cardapio-lista {
+    gap: 16px;
+}
+
+.item {
+    width: 100%;
+}
+
+.item img {
+    width: 104px;
+    height: 110px;
+}
+
+.item-texto {
+    padding: 10px 14px;
+}
+
+.item h3 {
+    font-size: 21px;
+}
+
+.item p {
+    font-size: 15px;
+}
+
+.historia {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 24px;
+}
+
+.historia-imagem {
+    width: 70%;
+}
+
+.historia-texto {
+    width: 100%;
+}
+
+.historia-texto h2 {
+    font-size: 32px;
+}
+
+.valores {
+    padding: 50px 20px;
+}
+
+.valores-lista {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contato {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 24px;
+}
+
+.contato-info,
+.formulario {
+    width: 100%;
+}
+
+.formulario {
+    padding: 24px 18px;
+}
+
+.form-linha {
+    flex-direction: column;
+    gap: 0;
+}
+
+button.botao {
+    width: 100%;
+}
+
+.obrigado {
+    margin: 30px 20px;
+    padding: 30px 20px;
+}
+
+.rodape {
+    padding: 40px 20px 20px 20px;
+}
+
+.rodape-colunas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+    text-align: center;
+}
+
+.rodape-marca img,
+.rodape-marca p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape-linha,
+.redes {
+    justify-content: center;
+}
+
+.contato-social-botoes {
+    flex-direction: column;
+}
+
+.botao-social {
+    justify-content: center;
+}
