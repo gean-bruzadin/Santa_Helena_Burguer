@@ -95,9 +95,10 @@ a {
     font-weight: 700;
     padding: 14px 34px;
     border-radius: 40px;
-    border: 3px solid #241B2B;
-    box-shadow: 0 5px 0 #241B2B;
+    border: 3px solid #F4B942;
+    box-shadow: 0 5px 0 #F4B942;
 }
+
 
 .botao:hover {
     background-color: #542080;
@@ -228,8 +229,8 @@ button.botao {
     color: #E8752A;
 }
 
-.chamada-laranja { border-bottom: 8px solid #E8752A; }
-.chamada-roxa    { border-bottom: 8px solid #8C52C2; }
+.chamada-laranja { border-bottom: 8px solid #F4B942; }
+.chamada-roxa    { border-bottom: 8px solid #F4B942; }
 .chamada-amarela { border-bottom: 8px solid #F4B942; }
 
 .faixa {
@@ -286,12 +287,12 @@ button.botao {
 .faixa .botao-contorno {
     background-color: transparent;
     color: #FFF6E8;
-    border-color: #FFF6E8;
-    box-shadow: 0 5px 0 #FFF6E8;
+    border-color: #F4B942;
+    box-shadow: 0 5px 0 #F4B942;
 }
 
 .faixa .botao-contorno:hover {
-    background-color: #FFF6E8;
+    background-color: #F4B942;
     color: #542080;
 }
 
