@@ -159,7 +159,6 @@ button.botao {
     color: #241B2B;
     font-size: 15px;
     font-weight: 700;
-    padding: 4px 16px;
     border-radius: 20px;
     margin-bottom: 18px;
 }
@@ -816,8 +815,27 @@ button.botao {
     height: 24px;
 }
 
-.redes a:hover {
-    background-color: #8C52C2;
+.rede-instagram {
+    border-color: #E1306C;
+}
+.rede-instagram:hover {
+    background-color: #E1306C;
+    animation: salto 0.6s;
+}
+
+.rede-whatsapp {
+    border-color: #25D366;
+}
+.rede-whatsapp:hover {
+    background-color: #25D366;
+    animation: salto 0.6s;
+}
+
+.rede-facebook {
+    border-color: #1877F2;
+}
+.rede-facebook:hover {
+    background-color: #1877F2;
     animation: salto 0.6s;
 }
 
