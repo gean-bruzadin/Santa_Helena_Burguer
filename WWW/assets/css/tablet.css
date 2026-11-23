@@ -80,10 +80,6 @@
     padding: 8px 14px;
 }
 
-.menu-cardapio .menu-voltar {
-    margin-left: 6px;
-}
-
 .historia {
     padding: 60px 30px;
     gap: 36px;
@@ -91,14 +87,6 @@
 
 .historia-texto h2 {
     font-size: 38px;
-}
-
-.valores {
-    padding: 60px 30px;
-}
-
-.valores-lista {
-    gap: 16px;
 }
 
 .contato {

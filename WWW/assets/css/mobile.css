@@ -28,25 +28,15 @@ body {
     font-size: 16px;
 }
 
-.topo-cardapio {
-    flex-direction: column;
-}
-
 .menu-cardapio {
     width: 100%;
-    overflow-x: auto;
     gap: 8px;
-    padding-bottom: 6px;
     font-size: 15px;
     white-space: nowrap;
 }
 
 .menu-cardapio a {
     padding: 6px 14px;
-}
-
-.menu-cardapio .menu-voltar {
-    margin-left: 0;
 }
 
 .pagina-topo-compacto {
@@ -195,15 +185,6 @@ body {
 
 .historia-texto h2 {
     font-size: 32px;
-}
-
-.valores {
-    padding: 50px 20px;
-}
-
-.valores-lista {
-    flex-direction: column;
-    gap: 16px;
 }
 
 .contato {
